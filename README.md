@@ -85,8 +85,27 @@ mvn spring-boot:run
 (or run Main.java from your IDE)
 
 📸 Screenshots / Demo
-Login Page	Dashboard	Quiz Screen
-(Add screenshots here later)	(Add here)	(Add here)
+Login Page
+<img width="1231" height="858" alt="login" src="https://github.com/user-attachments/assets/f8474188-9e94-4005-b826-93389e355bf9" />
+Home Page
+<img width="1481" height="982" alt="home" src="https://github.com/user-attachments/assets/281a7133-11ad-4308-bc71-c9581291b71b" />
+Category-selection Page
+<img width="1479" height="975" alt="category-selection" src="https://github.com/user-attachments/assets/c667759a-e3e4-46cd-8049-50f627827f63" />
+Quiz-starting Page
+<img width="1484" height="982" alt="quiz-starting" src="https://github.com/user-attachments/assets/62a0bd5e-cc70-47c7-80a5-0cc91d8fa62b" />
+Quiz Page
+<img width="1220" height="862" alt="quiz" src="https://github.com/user-attachments/assets/9576f61d-0ebc-44f5-9879-88822f53e437" />
+Result Page
+<img width="1100" height="856" alt="result" src="https://github.com/user-attachments/assets/4cd68a69-9f0e-4e51-8920-a2d813fe37b9" />
+Personal-Leaderboard Page
+<img width="1231" height="863" alt="personal-leaderboard" src="https://github.com/user-attachments/assets/d196b53e-6875-4123-9c14-021c53022c59" />
+Global-leaderbpoard Page
+<img width="1236" height="858" alt="global-leaderboard" src="https://github.com/user-attachments/assets/870ddfed-80a4-4245-bb99-4e1ea4c7ed4f" />
+
+
+
+
+
 
 🙌 Contributions
 Pull requests are welcome. If you'd like to improve UI or add features, feel free to contribute 🚀
@@ -115,3 +134,4 @@ Copy code
 git add README.md
 git commit -m "Added project README"
 git push origin main
+
