@@ -1,0 +1,33 @@
+# Compiled files
+bin/
+*.class
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Environment files
+.env
+*.env
+
+# Database files
+*.db
+*.sqlite
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Libraries (these will be downloaded)
+lib/*.jar
+
+# Personal config files
+DatabaseConfig.java.local
