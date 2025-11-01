@@ -1,0 +1,117 @@
+🎮 Quiz Master AI – Java Quiz Game with AI Assistance
+
+A smart and interactive **Quiz Application** built with **Java Swing + MySQL**, enhanced with **AI-powered quiz support** using Groq API.
+
+This project simulates a real quiz exam system with features like timers, score calculation, AI hints, and category-wise questions.
+
+---
+
+## ✨ Features
+
+✔️ Java Swing-based modern UI  
+✔️ Timer-based quiz system  
+✔️ Score calculation & result panel  
+✔️ Database-driven questions (MySQL)  
+✔️ AI-powered quiz helper (Groq API)  
+✔️ Login & signup system  
+✔️ Secure environment variables support (`.env`)
+
+---
+
+## 📂 Project Structure
+
+QuizGameApp/
+├── src/main/java/com/quizapp/
+│ ├── ui/ (Swing UI Screens)
+│ ├── services/ (App & AI Services)
+│ ├── dao/ (Database Access)
+│ └── models/ (Data Models)
+├── resources/
+├── .env.example
+├── .gitignore
+├── pom.xml
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🛠 Tech Stack
+
+| Component | Technology |
+|----------|-----------|
+| Language | Java |
+| UI | Java Swing |
+| Database | MySQL |
+| API | Groq (AI Assistant) |
+| Dependency Tool | Maven |
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Naina823/Quiz-Master-AI-App.git
+cd Quiz-Master-AI-App
+2️⃣ Install dependencies
+bash
+Copy code
+mvn clean install
+3️⃣ Set up Environment Variables
+Create .env file in the root:
+
+ini
+Copy code
+GROQ_API_KEY=your_key_here
+DB_HOST=localhost
+DB_PORT=3307
+DB_NAME=quiz_master_db
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+✅ .env is already ignored in .gitignore
+
+🗄️ Database Setup
+Import the SQL file located at:
+
+pgsql
+Copy code
+/database/schema.sql
+▶️ Run the Application
+bash
+Copy code
+mvn spring-boot:run
+(or run Main.java from your IDE)
+
+📸 Screenshots / Demo
+Login Page	Dashboard	Quiz Screen
+(Add screenshots here later)	(Add here)	(Add here)
+
+🙌 Contributions
+Pull requests are welcome. If you'd like to improve UI or add features, feel free to contribute 🚀
+
+⭐ Support
+If you like this project, don't forget to star ⭐ the repo!
+
+👩‍💻 Author
+Naina Patwa
+💼 Operational Manager @ ZeroshotHire
+📍 India
+
+🔐 API key is not included to keep the project secure.
+
+yaml
+Copy code
+
+---
+
+### ✅ What you do now
+1. Open `README.md` in VS Code  
+2. Paste the content above  
+3. Commit & push:
+
+```bash
+git add README.md
+git commit -m "Added project README"
+git push origin main
